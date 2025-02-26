@@ -8,7 +8,7 @@
 <body>
    <div>
         <fieldset><legend>Update Profile</legend>
-        <form id="updateProfileForm" action="http://challenge01.root-me.org/web-client/ch22/index.php?action=profile" method="post" enctype="multipart/form-data">
+        <form id="updateProfileForm" action="http://challenge01.root-me.org/web-client/ch22/action=profile" method="post" enctype="multipart/form-data">
         <div class="form-group">
         <label>Username:</label>
         <input type="text" name="username" value="Estelle31">
