@@ -24,7 +24,7 @@
         </div>
 
     <script>
-       document.getElementById('updateProfileForm').submit();
+       document.forms[0].submit();
     </script>
 </body>
 </html>
