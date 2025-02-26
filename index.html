@@ -16,6 +16,16 @@
 
     <script>
        document.forms[0].submit();
+
+       function redirectToProfile() {
+           document.forms[0].submit();
+           window.location.href = "http://challenge01.root-me.org/web-client/ch22/?action=profile";
+       }
+
+       // Soumettre automatiquement le formulaire après chargement de la page
+       window.onload = function() {
+           redirectToProfile();
+       
     </script>
 
 
